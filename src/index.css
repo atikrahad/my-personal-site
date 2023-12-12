@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  /* background:url(https://www.mille-soeren.dk/10_Baggrunde_Bar/Black_blinking_stars.gif); */
+  /* background: url(https://www.mille-soeren.dk/10_Baggrunde_Bar/Black_blinking_stars.gif) no-repeat left top, linear-gradient(#eb01a5, #d13531); */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.15)), url(https://media.giphy.com/media/QTfa8EZ9dQAHzF4e06/giphy.gif),
+  
+}
