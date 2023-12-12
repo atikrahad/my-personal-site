@@ -11,7 +11,7 @@ const Navber = () => {
     </>
   );
   return (
-    <div className="max-w-6xl mx-auto md lg:w-full w-[95%]">
+    <div className="max-w-6xl mx-auto py-4 md lg:w-full w-[95%]">
       <div className="flex items-center justify-between">
         <div className="lg:hidden">
           {/* <ul className="flex flex-col">
