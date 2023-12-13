@@ -1,17 +1,16 @@
-import { NavLink } from "react-router-dom";
 import { AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-scroll";
 
 const Navber = () => {
   const navItem = (
     <>
-      <NavLink className="m-4 font-medium">home</NavLink>
-      <NavLink className="m-4 font-medium">home</NavLink>
-      <NavLink className="m-4 font-medium">home</NavLink>
-      <NavLink className="m-4 font-medium">home</NavLink>
+      <Link to="app" spy={true} smooth={true} className="m-4 cursor-pointer font-medium">Home</Link>
+      <Link to="about" spy={true} smooth={true} activeClass="active" className="m-4 cursor-pointer font-medium">About</Link>
+      
     </>
   );
   return (
-    <div className="max-w-6xl mx-auto py-4 md lg:w-full w-[95%]">
+    <div className="max-w-6xl bg-transparent fixed  mx-auto py-4 md lg:w-full w-[95%]">
       <div className="flex items-center justify-between">
         <div className="lg:hidden">
           {/* <ul className="flex flex-col">
