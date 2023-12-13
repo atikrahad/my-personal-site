@@ -5,7 +5,7 @@ import Navber from "./Sectionspart/Header/Navber"
 
 function App() {
   return (
-    <div id="app" style={{ backgroundSize: "cover"}}>
+    <div style={{ backgroundSize: "cover"}}>
       <Navber></Navber>
       <Banner></Banner>
       <About></About>

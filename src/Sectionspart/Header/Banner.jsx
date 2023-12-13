@@ -3,8 +3,8 @@ import { BsFacebook, BsInstagram, BsLinkedin  } from "react-icons/bs";
 
 const Banner = () => {
     return (
-        <div 
-        style={{background: `linear-gradient(to bottom, rgba(25, 0 , 0, .9), rgba(0, 2, 25, .99)), url(https://media.giphy.com/media/ccKEsBDAAQTrutQ9LA/giphy.gif)`, backgroundSize: "cover"}} className="min-h-screen w-full">
+        <div id="app"
+        style={{background: `linear-gradient(to bottom, rgba(25, 0 , 0, .9), rgba(0, 2, 25, .99)), url(https://media.giphy.com/media/ccKEsBDAAQTrutQ9LA/giphy.gif)`, backgroundSize: "cover"}} className=" py-20 md:py-32 w-full">
             
             <div className="flex items-baseline gap-10 justify-center py-20">
                 <div className="flex flex-col items-center">
