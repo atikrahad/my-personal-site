@@ -1,10 +1,13 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
+import Frontend from "./Frontend";
+import Headline from "../Shared/Headline";
 
 const Myskills = () => {
   return (
     <div className="py-20">
-      <Tabs className="w-[50%] mx-auto">
+        <Headline subheading="My skills"></Headline>
+      <Tabs className="w-[95%] md:w-[50%] mx-auto">
         <TabList className="text-center pb-10 flex justify-between items-center ">
           <Tab className="text-xl p-3  rounded-md text-cyan-400 font-bold cursor-pointer">Front End</Tab>
           <Tab className="text-xl p-3 rounded-md text-cyan-400 font-bold cursor-pointer">Back End</Tab>
@@ -12,7 +15,7 @@ const Myskills = () => {
         </TabList>
 
         <TabPanel>
-          <h2 className="bg-red-700">Any content 1</h2>
+          <h2 className=""><Frontend></Frontend></h2>
         </TabPanel>
         <TabPanel>
           <h2>Any content 2</h2>

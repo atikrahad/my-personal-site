@@ -6,7 +6,7 @@ const About = () => {
     <div id="about">
       <div
         style={{
-          background: `linear-gradient(to bottom, rgba(0, 2, 25, .989), rgba(0, 2, 25, .989)), url(https://media.giphy.com/media/ccKEsBDAAQTrutQ9LA/giphy.gif)`,
+          background: `linear-gradient(to bottom, rgba(0, 2, 25, .987), rgba(0, 2, 25, .985)), url(https://media.giphy.com/media/ccKEsBDAAQTrutQ9LA/giphy.gif)`,
           backgroundSize: "cover",
         }}
         className="min-h-screen py-20 md:py-32"
