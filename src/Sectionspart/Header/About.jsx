@@ -9,7 +9,7 @@ const About = () => {
           background: `linear-gradient(to bottom, rgba(0, 2, 25, .987), rgba(0, 2, 25, .985)), url(https://media.giphy.com/media/ccKEsBDAAQTrutQ9LA/giphy.gif)`,
           backgroundSize: "cover",
         }}
-        className="min-h-screen py-20 md:py-32"
+        className=" py-20 md:py-32"
       >
         <div className="max-w-5xl mx-auto">
             <Headline subheading="My histry" heading="About me"></Headline>

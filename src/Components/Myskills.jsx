@@ -7,7 +7,7 @@ import Otherskills from "./Otherskills";
 
 const Myskills = () => {
   return (
-    <div className="py-20">
+    <div className="pt-20">
         <Headline subheading="My skills"></Headline>
       <Tabs className="w-[95%] md:w-[50%] mx-auto">
         <TabList className="text-center pb-10 flex justify-between items-center ">
