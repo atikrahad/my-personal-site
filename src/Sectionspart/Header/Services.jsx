@@ -11,7 +11,7 @@ const Services = () => {
         background: `linear-gradient(to bottom, rgba(0, 2, 25, .985), rgba(0, 2, 25, .985)), url(https://media.giphy.com/media/ccKEsBDAAQTrutQ9LA/giphy.gif)`,
         backgroundSize: "cover",
       }}
-      className="min-h-screen py-20"
+      className="py-20"
     >
       <Headline subheading="What I offer" heading="Services"></Headline>
       <div className="max-w-5xl flex gap-5 flex-col w-[95%] md:w-full md:flex-row mx-auto">

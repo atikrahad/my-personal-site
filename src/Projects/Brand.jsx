@@ -1,14 +1,15 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import blogpic1 from "../assets/portfolio/blogsite/Screenshot_2.png";
-import blogpic2 from "../assets/portfolio/blogsite/Screenshot_3.png";
-import blogpic3 from "../assets/portfolio/blogsite/Screenshot_1.png";
-import blogpic4 from "../assets/portfolio/blogsite/Screenshot_4.png";
+import brandpic1 from "../assets/portfolio/brandsite/Screenshot_5.png";
+import brandpic2 from "../assets/portfolio/brandsite/Screenshot_6.png";
+import brandpic3 from "../assets/portfolio/brandsite/Screenshot_7.png";
+import brandpic4 from "../assets/portfolio/brandsite/Screenshot_8.png";
+import brandpic5 from "../assets/portfolio/brandsite/Screenshot_9.png";
 import { Zoom, Autoplay } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/zoom";
 
-const Blog = () => {
+const Brand = () => {
   return (
     <div className="flex md:flex-row flex-col-reverse relative md:justify-between">
       <div className="md:w-[70%]">
@@ -30,7 +31,7 @@ const Blog = () => {
             <div className="md:swiper-zoom-container">
               <img
                 className="md:h-96 "
-                src={blogpic1}
+                src={brandpic1}
                 alt=""
               />
             </div>
@@ -39,7 +40,7 @@ const Blog = () => {
           <div className="md:swiper-zoom-container">
               <img
                 className="md:h-96 "
-                src={blogpic2}
+                src={brandpic2}
                 alt=""
               />
             </div>
@@ -48,7 +49,7 @@ const Blog = () => {
           <div className="md:swiper-zoom-container">
               <img
                 className="md:h-96 "
-                src={blogpic3}
+                src={brandpic3}
                 alt=""
               />
             </div>
@@ -57,7 +58,16 @@ const Blog = () => {
           <div className="md:swiper-zoom-container">
               <img
                 className="md:h-96 "
-                src={blogpic4}
+                src={brandpic4}
+                alt=""
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+          <div className="md:swiper-zoom-container">
+              <img
+                className="md:h-96 "
+                src={brandpic5}
                 alt=""
               />
             </div>
@@ -70,9 +80,9 @@ const Blog = () => {
         </div>
       </div>
       <div className=" md:absolute rounded-sm space-y-2 bg-slate-600 p-5 right-0 z-10 bottom-0 md:w-[45%] ">
-        <h1 className="text-4xl text-white">Article writing site.</h1>
+        <h1 className="text-4xl text-white">Brand shop website.</h1>
         <p className="text-cyan-400">
-          This is a full stack article writing website. User can write article about programing, sport, health, and tour.
+          This is a full stack brand item shoping site. User can add products with this brsnds like apple, google, samsung, redmi, sony, intel.
         </p>
           <ul className="text-slate-200" style={{listStyle: 'initial'}}>
             <li className="list-inside">For read and write article must register or login.</li>
@@ -85,4 +95,4 @@ const Blog = () => {
     </div>
   );
 };
-export default Blog;
+export default Brand;
