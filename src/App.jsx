@@ -1,4 +1,5 @@
 import "./App.css";
+import Contact from "./Sectionspart/Contact";
 import About from "./Sectionspart/Header/About";
 import Banner from "./Sectionspart/Header/Banner";
 import Navber from "./Sectionspart/Header/Navber"
@@ -13,6 +14,7 @@ function App() {
       <About></About>
       <Services></Services>
       <Portfolio></Portfolio>
+      <Contact></Contact>
     </div>
   );
 }

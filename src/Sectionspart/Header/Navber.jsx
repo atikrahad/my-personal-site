@@ -10,6 +10,7 @@ const Navber = () => {
       <Link to="about" spy={true} activeStyle={{color: 'red'}}  smooth={true} activeClass="active" className="m-4 cursor-pointer font-medium">About</Link>
       <Link to="services" spy={true} activeStyle={{color: 'red'}}  smooth={true} activeClass="active" className="m-4 cursor-pointer font-medium">Services</Link>
       <Link to="portfolio" spy={true} activeStyle={{color: 'red'}}  smooth={true} activeClass="active" className="m-4 cursor-pointer font-medium">Portfolio</Link>
+      <Link to="contact" spy={true} activeStyle={{color: 'red'}}  smooth={true} activeClass="active" className="m-4 cursor-pointer font-medium">Contact</Link>
       
     </>
   );
