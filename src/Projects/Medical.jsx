@@ -1,16 +1,14 @@
 /* eslint-disable react/jsx-no-target-blank */
 import { Swiper, SwiperSlide } from "swiper/react";
-import brandpic1 from "../assets/portfolio/brandsite/Screenshot_5.png";
-import brandpic2 from "../assets/portfolio/brandsite/Screenshot_6.png";
-import brandpic3 from "../assets/portfolio/brandsite/Screenshot_7.png";
-import brandpic4 from "../assets/portfolio/brandsite/Screenshot_8.png";
-import brandpic5 from "../assets/portfolio/brandsite/Screenshot_9.png";
+import brandpic1 from "../assets/portfolio/medicalcamp/Screenshot_10.png";
+import brandpic2 from "../assets/portfolio/medicalcamp/Screenshot_11.png";
+import brandpic3 from "../assets/portfolio/medicalcamp/Screenshot_1.png";
 import { Zoom, Autoplay } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/zoom";
 
-const Brand = () => {
+const Medical = () => {
   return (
     <div className="flex md:flex-row flex-col-reverse relative md:justify-between">
       <div className="md:w-[70%]">
@@ -55,35 +53,18 @@ const Brand = () => {
               />
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-          <div className="md:swiper-zoom-container">
-              <img
-                className="md:h-96 "
-                src={brandpic4}
-                alt=""
-              />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-          <div className="md:swiper-zoom-container">
-              <img
-                className="md:h-96 "
-                src={brandpic5}
-                alt=""
-              />
-            </div>
-          </SwiperSlide>
+          
         </Swiper>
         <div className="flex pt-5 gap-5">
-            <a href="https://brand-products-26027.web.app" target="_blank"><button className="btn">Live Preview</button></a>
-            <a href="https://github.com/atikrahad/ar-shop-clientside" target="_blank"><button className="btn">Fron End</button></a>
-            <a href="https://github.com/atikrahad/ar-shop-serverside" target="_blank"><button className="btn">Back End</button></a>
+            <a href="https://medical-camp-dce58.web.app/"target="_blank" rel="noreferrer"><button className="btn">Live Preview</button></a>
+            <a href="https://github.com/atikrahad/medical-camp-management-clientside" target="_blank"><button className="btn">Fron End</button></a>
+            <a href="https://github.com/atikrahad/medical-camp-management-server" target="_blank"><button className="btn">Back End</button></a>
         </div>
       </div>
       <div className=" md:absolute rounded-sm space-y-2 bg-slate-600 p-5 right-0 z-10 bottom-0 md:w-[45%] ">
-        <h1 className="text-4xl text-white">Brand shop website.</h1>
+        <h1 className="text-4xl text-white">Medical camp website.</h1>
         <p className="text-cyan-400">
-          This is a full stack brand item shoping site. User can add products with this brsnds like apple, google, samsung, redmi, sony, intel.
+          This is a full stack medical camp website. Three Types of people can register this site like perticipent, organizer, doctors.
         </p>
           <ul className="text-slate-200" style={{listStyle: 'initial'}}>
             <li className="list-inside">For read and write article must register or login.</li>
@@ -96,4 +77,4 @@ const Brand = () => {
     </div>
   );
 };
-export default Brand;
+export default Medical;

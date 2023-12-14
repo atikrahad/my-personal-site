@@ -5,6 +5,7 @@ import brand from "../../assets/portfolio/brandsite/Screenshot_5.png";
 import medical from "../../assets/portfolio/medicalcamp/Screenshot_10.png"
 import Blog from "../../Projects/Blog";
 import Brand from "../../Projects/Brand";
+import Medical from "../../Projects/Medical";
 
 const Portfolio = () => {
   return (
@@ -44,7 +45,7 @@ const Portfolio = () => {
             <h2><Brand></Brand></h2>
           </TabPanel>
           <TabPanel>
-            <h2>asdfasf</h2>
+            <h2><Medical></Medical></h2>
           </TabPanel>
         </Tabs>
       </div>

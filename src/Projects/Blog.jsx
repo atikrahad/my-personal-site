@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import { Swiper, SwiperSlide } from "swiper/react";
 import blogpic1 from "../assets/portfolio/blogsite/Screenshot_2.png";
 import blogpic2 from "../assets/portfolio/blogsite/Screenshot_3.png";
@@ -64,9 +65,9 @@ const Blog = () => {
           </SwiperSlide>
         </Swiper>
         <div className="flex pt-5 gap-5">
-            <a href=""><button className="btn">Live Preview</button></a>
-            <a href=""><button className="btn">Fron End</button></a>
-            <a href=""><button className="btn">Back End</button></a>
+            <a href="https://blog-site-68835.web.app/" target="_blank"><button className="btn">Live Preview</button></a>
+            <a href="https://github.com/atikrahad/write-article-clientside" target="_blank"><button className="btn">Fron End</button></a>
+            <a href="https://github.com/atikrahad/write-article-server" target="_blank"><button className="btn">Back End</button></a>
         </div>
       </div>
       <div className=" md:absolute rounded-sm space-y-2 bg-slate-600 p-5 right-0 z-10 bottom-0 md:w-[45%] ">
