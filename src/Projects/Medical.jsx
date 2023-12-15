@@ -7,6 +7,7 @@ import { Zoom, Autoplay } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/zoom";
+import { AiOutlineEye, AiOutlineGithub } from "react-icons/ai";
 
 const Medical = () => {
   return (
@@ -55,13 +56,13 @@ const Medical = () => {
           </SwiperSlide>
           
         </Swiper>
-        <div className="flex pt-5 gap-5">
-            <a href="https://medical-camp-dce58.web.app/"target="_blank" rel="noreferrer"><button className="btn">Live Preview</button></a>
-            <a href="https://github.com/atikrahad/medical-camp-management-clientside" target="_blank"><button className="btn">Fron End</button></a>
-            <a href="https://github.com/atikrahad/medical-camp-management-server" target="_blank"><button className="btn">Back End</button></a>
+        <div className="flex flex-wrap pt-5 gap-5">
+            <a href="https://medical-camp-dce58.web.app/"target="_blank" rel="noreferrer"><button style={{ boxShadow: "2px 4px 16px #2e5354" }} className="btn bg-slate-600 rounded-md border-none text-cyan-400 hover:text-slate-800"><AiOutlineEye ></AiOutlineEye> Live Preview</button></a>
+            <a href="https://github.com/atikrahad/medical-camp-management-clientside" target="_blank"><button style={{ boxShadow: "2px 4px 16px #2e5354" }} className="btn bg-slate-600 rounded-md border-none text-cyan-400 hover:text-slate-800"><AiOutlineGithub></AiOutlineGithub> Front End</button></a>
+            <a href="https://github.com/atikrahad/medical-camp-management-server" target="_blank"><button style={{ boxShadow: "2px 4px 16px #2e5354" }} className="btn bg-slate-600 rounded-md border-none text-cyan-400 hover:text-slate-800"><AiOutlineGithub></AiOutlineGithub> Back End</button></a>
         </div>
       </div>
-      <div className=" md:absolute rounded-sm space-y-2 bg-slate-600 p-5 right-0 z-10 bottom-0 md:w-[45%] ">
+      <div style={{ boxShadow: "2px 4px 16px #2e5354" }} className=" md:absolute rounded-sm space-y-2 bg-slate-600 p-5 right-0 z-10 bottom-0 md:w-[45%] ">
         <h1 className="text-4xl text-white">Medical camp website.</h1>
         <p className="text-cyan-400">
           This is a full stack medical camp website. Three Types of people can register this site like perticipent, organizer, doctors.

@@ -15,9 +15,9 @@ const Navber = () => {
     </>
   );
   return (
-    <div  className="max-w-6xl bg-transparent fixed  mx-auto py-4 md lg:w-full w-[95%]">
-      <div className="flex items-center justify-between">
-        <div className="lg:hidden">
+    <div  className=" bg-slate-600 bg-opacity-90 fixed z-50 mx-auto py-4 md lg:w-full w-[95%]">
+      <div className="flex items-center max-w-5xl mx-auto justify-between">
+        <div className="md:hidden">
           {/* <ul className="flex flex-col">
                 {
                     navItem
@@ -53,7 +53,6 @@ const Navber = () => {
             alt=""
             className="w-16 h-16 rounded-full"
           />
-          <h1 className="text-3xl font-bold text-cyan-600">A<span className="text-3xl text-cyan-400">R</span></h1>
         </div>
         <div>
           <ul className="md:contents hidden">{navItem}</ul>
