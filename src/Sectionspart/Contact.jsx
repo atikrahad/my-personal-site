@@ -1,5 +1,6 @@
 import { AiOutlineHome, AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 import Headline from "../Shared/Headline";
+
 const Contact = () => {
   return (
     <div
@@ -43,7 +44,8 @@ const Contact = () => {
               <input className="px-4 py-3 w-full rounded-lg border-cyan-400 bg-transparent border-2 outline-none" type="text" placeholder="Project" />
             </div>
             <textarea placeholder="Message" className="px-4 py-3 w-full rounded-lg border-cyan-400 bg-transparent border-2 outline-none" name="" id="" cols="30" rows="5"></textarea>
-            <input type="submit"  className="btn" />
+            <input style={{ boxShadow: "2px 4px 16px #2e5354" }} type="submit"  className="btn bg-slate-600 rounded-md border-none text-cyan-400  hover:text-slate-800"/>
+            
           </form>
         </div>
       </div>

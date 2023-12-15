@@ -22,9 +22,9 @@ const About = () => {
                 I'm Atik Rahad.
               </h1>
               <p className="text-slate-400">
-                I'm a MERN stack web developer although I am comfortable as a
-                Frontent developer. Rect and tailwind I have used in almost my
-                all projects. But I'm learning Next.js, mongoose, MUI.
+                I'm a MERN stack web developer although I am expert as a
+                front end developer. Rect and tailwind I have used in almost my
+                all projects. But I'm comfortable node.js, express.js, and mongodb. Now I'm learning Next.js, mongoose, MUI.
               </p>
               <div className="flex flex-col md:flex-row gap-3">
                 <div
@@ -47,7 +47,7 @@ const About = () => {
             </div>
             <div className="relative">
                 
-              <img src={img} className="rounded-b-full border-b  hover:translate-x-3 hover:translate-y-3 ease-in border-cyan-300 " alt="" />
+              <img src={img} className="rounded-b-full border-b  border-dashed border-cyan-300 " alt="" />
             </div>
           </div>
           <Myskills></Myskills>

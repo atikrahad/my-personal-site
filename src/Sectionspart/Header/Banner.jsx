@@ -1,5 +1,6 @@
+/* eslint-disable react/jsx-no-target-blank */
 import img from "../../assets/banner/1.png"
-import { BsFacebook, BsInstagram, BsLinkedin  } from "react-icons/bs";
+import { BsFacebook, BsGithub, BsInstagram, BsLinkedin  } from "react-icons/bs";
 
 const Banner = () => {
     return (
@@ -16,9 +17,10 @@ const Banner = () => {
                     <h1 className="text-5xl text-white font-bold">Atik Rahad</h1>
                     <h2 className="text-4xl text-cyan-200 font-semibold">Web Developer</h2>
                     <div className="flex gap-5">
-                        <a href="https://www.facebook.com/atik.rahat.10"><BsFacebook className="text-4xl text-cyan-500"/></a>
-                        <a href="https://www.instagram.com/atik_rahad1/"><BsInstagram className="text-4xl text-cyan-500"/></a>
-                        <a href="https://www.linkedin.com/in/atik-rahad/"><BsLinkedin className="text-4xl text-cyan-500"/></a>
+                        <a target="_blank" href="https://www.facebook.com/atik.rahat.10"><BsFacebook className="text-4xl text-cyan-500"/></a>
+                        <a target="_blank" href="https://www.instagram.com/atik_rahad1/"><BsInstagram className="text-4xl text-cyan-500"/></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/atik-rahad/"><BsLinkedin className="text-4xl text-cyan-500"/></a>
+                        <a target="_blank" href="https://github.com/atikrahad"><BsGithub className="text-4xl text-cyan-500"/></a>
                     </div>
                 </div>
             </div>
