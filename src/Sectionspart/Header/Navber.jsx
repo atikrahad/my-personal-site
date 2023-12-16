@@ -18,7 +18,7 @@ const Navber = () => {
   const fixdNav = ()=> {
     if(window !== undefined){
       let windowHight = window.scrollY;
-      if(windowHight > 200){
+      if(windowHight > 70){
         setStickyclass('bg-[#000219fa]  top-0 left-0 fixed bg-opacity-60')
         setShadow("2px 4px 16px #2e5354")
       }
@@ -40,8 +40,8 @@ const Navber = () => {
     </>
   );
   return (
-    <div  style={{ boxShadow:`${shadow}`}} className={`${stickyclass} z-50 mx-auto py-2 text-slate-400 shadow-md shadow-cyan-600 lg:w-full w-[95%]`}>
-      <div className="flex items-center max-w-5xl mx-auto justify-between">
+    <div  style={{ boxShadow:`${shadow}`}} className={`${stickyclass} z-50 mx-auto py-2 text-slate-400 shadow-md shadow-cyan-600 w-full`}>
+      <div className="flex items-center w-[95%] md:w-full max-w-5xl mx-auto justify-between">
         <div className="md:hidden">
           {/* <ul className="flex flex-col">
                 {
@@ -81,7 +81,7 @@ const Navber = () => {
         </div>
         <div>
           <ul className="md:contents hidden">{navItem}</ul>
-          <Link to={resume} download><button style={{ boxShadow: "2px 4px 16px #2e5354" }} className="btn bg-slate-600 rounded border-none text-cyan-400  hover:text-slate-800">Resume</button></Link>
+          <a href={resume} download><button style={{ boxShadow: "2px 4px 16px #2e5354" }} className="btn bg-slate-600 rounded border-none text-cyan-400  hover:text-slate-800">Resume</button></a>
         </div>
       </div>
     </div>

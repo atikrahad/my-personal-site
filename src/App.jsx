@@ -1,4 +1,5 @@
 import "./App.css";
+
 import Contact from "./Sectionspart/Contact";
 import Footer from "./Sectionspart/Footer";
 import About from "./Sectionspart/Header/About";
@@ -8,8 +9,10 @@ import Portfolio from "./Sectionspart/Header/Portfolio";
 import Services from "./Sectionspart/Header/Services";
 
 function App() {
+  
+
   return (
-    <div style={{ backgroundSize: "cover"}}>
+    <div onMouseMove={()=>console.log()} style={{ backgroundSize: "cover"}}>
       <Navber></Navber>
       <Banner></Banner>
       <About></About>

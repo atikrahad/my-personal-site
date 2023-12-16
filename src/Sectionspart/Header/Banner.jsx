@@ -1,4 +1,5 @@
 /* eslint-disable react/jsx-no-target-blank */
+import { TypeAnimation } from "react-type-animation";
 import img from "../../assets/banner/1.png"
 import { BsFacebook, BsGithub, BsInstagram, BsLinkedin  } from "react-icons/bs";
 
@@ -13,9 +14,24 @@ const Banner = () => {
                     <div className="w-2 h-52 -mt-2 bg-gradient-to-b from-cyan-700 to-green-500"/>
                 </div>
                 <div className="space-y-5">
-                    <h3 className="text-3xl font-medium text-white">Hello, I'm</h3>
-                    <h1 className="text-5xl text-white font-bold">Atik Rahad</h1>
-                    <h2 className="text-4xl text-cyan-200 font-semibold">Web Developer</h2>
+                    <h3 className="text-2xl md:text-3xl font-medium text-white">Hello, I'm</h3>
+                    <h1 className="text-4xl md:text-5xl text-white font-bold">Atik Rahad</h1>
+                    <h2 className="text-2xl md:text-4xl text-cyan-200 font-semibold">
+                        <TypeAnimation
+                            repeat={Infinity}
+                            speed={1}
+                            sequence={[
+                                'Web Developer',
+                                2000,
+                                'MERN Stack Developer',
+                                2000,
+                                'Front End Developer',
+                                2000,
+                                'Back Developer',
+                                2000,
+                            ]}
+                        />
+                    </h2>
                     <div className="flex gap-5">
                         <a target="_blank" href="https://www.facebook.com/atik.rahat.10"><BsFacebook className="text-4xl text-cyan-500"/></a>
                         <a target="_blank" href="https://www.instagram.com/atik_rahad1/"><BsInstagram className="text-4xl text-cyan-500"/></a>

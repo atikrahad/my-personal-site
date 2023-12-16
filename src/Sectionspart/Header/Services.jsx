@@ -3,6 +3,8 @@ import mern from "../../assets/services/mern.png";
 import frontend from "../../assets/services/frontend.png";
 import backend from "../../assets/services/backend.png";
 import { Link } from "react-scroll";
+import Tilt from 'react-parallax-tilt';
+
 
 const Services = () => {
   return (
@@ -15,8 +17,10 @@ const Services = () => {
       className="py-20"
     >
       <Headline subheading="What I offer" heading="Services"></Headline>
-      <div className="max-w-5xl flex gap-5 flex-col w-[95%] md:w-full md:flex-row mx-auto">
-        <div
+
+
+      <Tilt className="max-w-5xl flex gap-5 flex-col w-[95%] md:w-full md:flex-row mx-auto">
+        <Tilt data-tilt data-tilt-scale="1.1"
           style={{ boxShadow: "2px 4px 16px #2e5354" }}
           className=" rounded-md bg-slate-400 w-full"
         >
@@ -35,14 +39,18 @@ const Services = () => {
             <Link
               style={{ boxShadow: "2px 4px 16px #2e5354" }}
               to="contact"
+              smooth={true}
+
               className="font-bold border-none hover:text-slate-800 bg-slate-600 rounded-md text-cyan-400 btn"
             >
               Contact me
             </Link>
           </div>
-        </div>
+        </Tilt>
 
-        <div
+
+
+        <Tilt data-tilt data-tilt-scale="1.1"
           style={{ boxShadow: "2px 4px 16px #2e5354" }}
           className=" rounded-md bg-slate-400 w-full"
         >
@@ -61,13 +69,17 @@ const Services = () => {
             <Link
               style={{ boxShadow: "2px 4px 16px #2e5354" }}
               to="contact"
+              smooth={true}
               className="font-bold border-none hover:text-slate-800 bg-slate-600 rounded-md text-cyan-400 btn"
             >
               Contact me
             </Link>
           </div>
-        </div>
-        <div
+        </Tilt>
+
+
+
+        <Tilt data-tilt data-tilt-scale="1.1"
           style={{ boxShadow: "2px 4px 16px #2e5354" }}
           className=" rounded-md  bg-slate-400 w-full"
         >
@@ -86,13 +98,14 @@ const Services = () => {
             <Link
               style={{ boxShadow: "2px 4px 16px #2e5354" }}
               to="contact"
+              smooth={true}
               className="font-bold border-none hover:text-slate-800 bg-slate-600 rounded-md text-cyan-400 btn"
             >
               Contact me
             </Link>
           </div>
-        </div>
-      </div>
+        </Tilt>
+      </Tilt>
     </div>
   );
 };

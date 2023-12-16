@@ -1,5 +1,7 @@
 import Myskills from "../../Components/Myskills";
 import Headline from "../../Shared/Headline";
+import Tilt from 'react-parallax-tilt';
+
 import img from "../../assets/about/20231209224717_IMG_8063-PhotoRoom.png-PhotoRoom.png";
 const About = () => {
   return (
@@ -14,7 +16,8 @@ const About = () => {
         <div className="max-w-5xl mx-auto">
             <Headline subheading="My histry" heading="About me"></Headline>
           <div className="flex gap-10 flex-col-reverse md:flex-row  justify-between items-center">
-            <div className="space-y-4">
+
+            <Tilt className="space-y-4">
               <h2 className="text-2xl text-orange-200 font-semibold">
                 Thank You sir, for visit my profile.
               </h2>
@@ -44,11 +47,13 @@ const About = () => {
                   <h3 className="text-cyan-200 text-center">Total projects</h3>
                 </div>
               </div>
-            </div>
-            <div className="relative">
+            </Tilt>
+
+
+            <Tilt className="relative">
                 
               <img src={img} className="rounded-b-full border-b  border-dashed border-cyan-300 " alt="" />
-            </div>
+            </Tilt>
           </div>
           <Myskills></Myskills>
         </div>
